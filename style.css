@@ -1,0 +1,113 @@
+ul#jogadorEscolha li a:hover,
+ul#jogadorEscolha li a.selecionado,
+ul#computadorEscolha li a.selecionado {
+    opacity: 1;
+}
+
+ul#jogadorEscolha li a,
+ul#computadorEscolha li a {
+    opacity: 0.2;
+}
+
+img {
+    width: 200px;
+    height: 200px;
+}
+
+body, h1, h2, ul, li, p {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+}
+
+#principal {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fca5e34c;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+#titulo {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #333;
+}
+
+#placar {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-top: 1px solid #ddd;
+    padding-top: 20px;
+    margin-top: 20px;
+}
+
+#jogador{
+    text-align: center;
+    border-radius: 5px;
+    border: solid 1px #367fec;
+    background-color: #367fec1e;
+}
+
+#computador {
+    text-align: center;
+    border: solid 1px rgb(236, 173, 55);
+    border-radius: 5px;
+    background-color: rgba(236, 173, 55, 0.192);
+}
+
+#jogadorNome,
+#computadorNome {
+    margin-bottom: 10px;
+    color: #555;
+}
+
+#jogadorPontos,
+#computadorPontos {
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+}
+
+#jogadorEscolha,
+#computadorEscolha {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+}
+
+#jogadorEscolha li,
+#computadorEscolha li {
+    margin: 0 10px;
+}
+
+#jogadorEscolha img,
+#computadorEscolha img {
+    width: 80px;
+    height: 80px;
+    cursor: pointer;
+    border: 2px solid transparent;
+    border-radius: 50%;
+    transition: border-color 0.3s ease-in-out;
+}
+
+#jogadorEscolha img:hover{
+    border-color: #367fec;
+}
+
+#computadorEscolha img:hover{
+    border-color: rgb(236, 173, 55);
+}
+#mensagem {
+    text-align: center;
+    margin-top: 20px;
+    color: #333;
+}
